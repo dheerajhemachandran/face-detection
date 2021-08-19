@@ -20,7 +20,7 @@ while 1:
 		
 		cv2.rectangle(img,(x,y),(x+w,y+h),(255,255,0),2)
 		
-	cv2.imshow('img',img)
+	cv2.imshow('face detection',img)
 
 	
 	k = cv2.waitKey(30) & 0xff
